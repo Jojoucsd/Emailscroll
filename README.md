@@ -1,28 +1,7 @@
-## BLANK_TEMPLATE
+Micro Blog
 
-Basic frontend template for projects using HTML, CSS, jQuery, and Bootstrap.
+This is my first project using html, css, boostrap, jQuery and javascript. The Blog I create is more similar to a todo apps. Part of the reason I want to create the app like a todo is because, as a tralveing advisor I often have to give planning advice to friends and customers where they should visit in a week's planning. Having a customer todo app really help me give better instructions to my friends and clients. 
 
-Make sure to rename the repo folder, after you clone it, so that you don't confuse yourself later. Try renaming when you clone:
+This app I first want to have a title and body which I can record dates on the title and objective. And the body is the detail of the date's plan. In the future, I want to add link is clickable and able to link to google map and other feature.
 
-``` bash
-git clone CLONE_URL your_project_name
-```
-After you have cloned and renamed your repo, cd into the folder. 
-```bash
-cd your_project_name
-```
-Next check your git remote origin.
-```bash
-git remote -v
-```
-
-It is pointing to the blank_template repo but you want it to point to your own repo. You need to remove the current remote and place your own in.
-```bash
-git remote remove origin
-```
-Next go to your Github page and make a new repo with the same name you just created locally. **Don't click Initialize this repository with a README**. Create Repo, then you will see two options, choose the second " push an existing repository from the command line" follow the instructions
-
-```bash
-git remote add origin your_github_project.git
-git push -u origin master
-```
+There are couple features I want to add on to this apps but not able to complete before the due days. One of the features is to remove the post by clicking the glyphicon trash can. I was unable to target the element. Another place I want to improve my app in the future is add comment section, tracking post number and add "up vote" feature. And will add a new section for popular post.
